@@ -1,0 +1,368 @@
+
+
+html {
+    height: 50px;
+    font-family: sans-serif;
+}
+/*header2*/
+
+.logo > img{
+    height: 100px;
+}
+
+.logo {
+    margin-left: 150px;
+}
+
+.header2{
+    display: flex;
+    width: 920px;
+    height: 90px;
+    margin: auto;
+}
+
+
+
+.Catalog {
+    height:36px;
+    width: 130px;
+    background: #07F003;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+}
+
+.burger-menu > img{
+  width: 20px;
+  margin-bottom: 30px;
+}
+
+.button{
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Catalog-text{
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+
+
+.burger-menu{
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.textIn {
+    width: 300px;
+    padding: 30px 0 0 0 ;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.textIn > input {
+    height: 37px;
+}
+
+.textIn > div > img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+}
+
+.dropdown-menu {
+    transition: ease-in 0.2s;
+}
+
+.box-shadow {
+    box-shadow: 0 5px 4px -4px rgb(0 0 0 / 10%);
+}
+
+.menu {
+    width: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.cart  > img {
+   width: 30px;
+}
+
+.login > img{
+    width: 33px;
+    height: 27px;
+}
+
+.cart {
+  width: 80px;
+  height: 50px;
+    text-align: center;
+}
+.cart  >img {
+    height: 27px;
+}
+
+.login{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+
+.footer {
+    height:400px;
+    background: #f7f7f7;
+    border-top: 2px solid #07F003;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer > div {
+    width: 300px;
+}
+
+.contact-Us {
+    width: 570px;
+    height: 211px;
+    margin-left: 25%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.contact-Us > div > div > img {
+ width: 50px;
+}
+
+.contact-Us > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.join-us > div > div > a > img {
+    height: 50px;
+}
+
+.join-us {
+    margin-right: 15%;
+    width: 250px;
+    height: 211px;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.join-uss {
+ text-align: center;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.join-us > div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.youtube {
+    width: 100px;
+}
+
+
+.contact-text {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.btn-outline-success {
+    color: #07F003;
+    border-color: #07F003;
+}
+
+.carouselss {
+    width: 350px;
+    height: 376px;
+    margin-left: 28%;
+}
+
+.menu > a {
+    color: #07F003;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.menu > a:hover{
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    transition: all 0.5s ease-out;
+
+}
+
+
+/*.slide {*/
+/*    width: 500px;*/
+/*    height: 376px;*/
+/*    margin: auto;*/
+/*}*/
+
+.sr-only {
+    display: none;
+}
+
+.carousel-control-next-icon {
+    background-color: #949494;
+}
+
+.carousel-control-prev-icon {
+    background-color: #949494;
+}
+
+.carousel-div {
+    width: 650px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.skidki {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.saleees {
+    width: 300px;
+    height: 200px;
+}
+
+.skidki > img {
+    width: 300px;
+    height: 200px;
+}
+
+.sales {
+    width: 80px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.sales > img {
+    width: 33px;
+    height: 27px;
+}
+
+.in-this-week {
+    width: 250px;
+    height: 155px;
+    margin-top: 20px;
+}
+
+.text-head {
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .header2 {
+        width: auto;
+        height: 180px;
+        flex-wrap: nowrap;
+    }
+    .logo {
+        margin-left: 100px;
+    }
+    .textIn {
+        width: 300px;
+        height: 50%;
+    }
+
+    .menu {
+        margin: 0;
+        justify-content: space-between;
+        width: 190px;
+        margin: 90px 0 0 -150px;
+    }
+    .logo {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-left: 3%;
+    }
+    .menu {
+        margin: 90px 0 0 -120px;
+    }
+}
+
+@media screen and (max-width: 500px){
+   .logo {
+       margin-left: -40px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        display: none;
+    }
+    .menu {
+        margin: 90px 0 0 -120px;
+    }
+    .textIn{
+        padding: 30px 0 0 20px;
+        width: 300px;
+    }
+    .textIn > input {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 270px){
+  .textIn {
+      padding-left: 0;
+  }
+   .menu {
+
+   }
+}
+
+@media screen and (max-width: 250px){
+    .textIn {
+        width: 250px;
+    }
+    .menu {
+        margin: 90px 0 0 -90px;
+    }
+}
+
+
+@media screen and (max-width: 230px){
+    .textIn {
+        min-width: 100%;
+    }
+    .menu {
+        margin: 90px 0 0 -40px;
+        font-size: 10px;
+    }
+    .menu > div > img{
+        width: 30px;
+        height: 30px;
+        margin-left: 0;
+    }
+    .text-head {
+        text-align: left;
+    }
+}
+

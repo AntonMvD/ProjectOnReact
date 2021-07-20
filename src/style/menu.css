@@ -1,0 +1,75 @@
+.card {
+   width: 262px;
+   height: 530px;
+}
+
+.menu-card {
+    background-color: #f9f9f9;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+
+}
+
+.card > div > img {
+    width: 260px;
+    height: 260px;
+}
+
+.card-info > h3 {
+    padding: 20px 0 5px;
+}
+
+.card-info {
+    text-align: center;
+}
+
+.card-info > span {
+    font-size: 18px;
+    color: #09f6f2;
+    font-family: arial;
+
+}
+
+.card-info {
+    width: 260px;
+    height: 170px;
+}
+
+div > i {
+    width: 50px;
+    height: 50px;
+}
+
+.Buy {
+    width: 250px;
+    margin: auto;
+    height: 81px;
+    background-color: #f7f7f7;
+    padding: 10px 10px !important;
+
+}
+.Buy:hover {
+  background-color: floralwhite;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; justify-content: space-around;
+    width: 850px;
+    margin: auto;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    width: 130px;
+    margin: auto;
+}
+.col > div {
+    width: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
